@@ -30,7 +30,7 @@ const Formik = () => {
  
   return (
     <div className="APP">
-      {/* <h1>-----Formik</h1> */}
+      {/* <h1>-----Formik</h1> */} 
       <form autoComplete="off" onSubmit={formik.handleSubmit}>  {/* Turned off autocomplete for the entire form */}
         <label>Name</label> <br/>
         <input 
@@ -72,6 +72,7 @@ const Formik = () => {
         <br/>
         <br/>
         <button type="submit">Register</button>
+        {/*example */}
       </form>
     </div>
   )
